@@ -1,0 +1,81 @@
+/*----------------------*\
+*!   Gradient Headers   !*
+\*----------------------*/
+
+/** Colors **/
+:root .theme-light {
+    --h1-color: #e53935;
+    --h1-gradient: var(--h1-color), #f44336, #f06292;
+    --h2-color: #fb8c00;
+    --h2-gradient: var(--h2-color), #ff9800, #ffb300;
+    --h3-color: #fbc02d;
+    --h3-gradient: var(--h3-color), #ffc107, #ffca28;
+    --h4-color: #7cb342;
+    --h4-gradient: var(--h4-color), #9ccc65, #c0ca33;
+    --h5-color: #1e88e5;
+    --h5-gradient: var(--h5-color), #03a9f4, #26c6da;
+    --h6-color: #8e24aa;
+    --h6-gradient: var(--h6-color), #9c27b0, #9575cd;
+}
+
+:root .theme-dark {
+    --h1-color: #ef5350;
+    --h1-gradient: var(--h1-color), #e57373, #f06292;
+    --h2-color: #ffa726;
+    --h2-gradient: var(--h2-color), #ffb74d, #ffcc80;
+    --h3-color: #ffd54f;
+    --h3-gradient: var(--h3-color), #ffd54f, #ffe082;
+    --h4-color: #a5d6a7;
+    --h4-gradient: var(--h4-color), #aed581, #e6ee9c;
+    --h5-color: #90caf9;
+    --h5-gradient: var(--h5-color), #80deea, #80cbc4;
+    --h6-color: #ce93d8;
+    --h6-gradient: var(--h6-color), #b39ddb, #f8bbd0;
+}
+
+/** Gradient Headers **/
+
+/* Fix formatting symbol colors */
+.cm-formatting-header {
+    color: inherit;
+}
+
+/* Add text-clipped background gradients */
+.cm-header:not(.cm-formatting),
+:is(h1, h2, h3, h4, h5, h6) {
+    background: linear-gradient(to right, var(--gradient-header));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+/* Apply the gradient variables */
+.cm-header-1,
+h1 {
+    --gradient-header: var(--h1-gradient);
+}
+
+.cm-header-2,
+h2 {
+    --gradient-header: var(--h2-gradient);
+}
+
+.cm-header-3,
+h3 {
+    --gradient-header: var(--h3-gradient);
+}
+
+.cm-header-4,
+h4 {
+    --gradient-header: var(--h4-gradient);
+}
+
+.cm-header-5,
+h5 {
+    --gradient-header: var(--h5-gradient);
+}
+
+.cm-header-6,
+h6 {
+    --gradient-header: var(--h6-gradient);
+}

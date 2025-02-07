@@ -1,0 +1,78 @@
+/*---------------------------------*\
+*!   Gradient Bold & Italic Text   !*
+\*---------------------------------*/
+
+/** Colors **/
+:root .theme-light {
+    --bold-color: #e53935;
+    --bold-gradient: var(--bold-color), #f44336, #f06292;
+    --italic-color: #1e88e5;
+    --italic-gradient: var(--italic-color), #03a9f4, #26c6da;
+    --bold-italic-color: #fbc02d;
+    --bold-italic-gradient: var(--bold-italic-color), #ffc107, #ffca28;
+}
+
+:root .theme-dark {
+    --bold-color: #ef5350;
+    --bold-gradient: var(--bold-color), #e57373, #f06292;
+    --italic-color: #90caf9;
+    --italic-gradient: var(--italic-color), #80deea, #80cbc4;
+    --bold-italic-color: #ffd54f;
+    --bold-italic-gradient: var(--bold-italic-color), #ffd54f, #ffe082;
+}
+
+/** Gradient Text Styles **/
+
+/* Add text-clipped background gradients */
+.cm-strong,
+.markdown-rendered strong,
+.cm-em,
+.markdown-rendered em,
+.cm-strong.cm-em,
+.markdown-rendered strong em,
+.markdown-rendered em strong {
+    background: linear-gradient(to right, var(--gradient-text));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    display: inline-block;
+}
+
+/* Apply the gradient variables */
+.cm-strong,
+.markdown-rendered strong {
+    --gradient-text: var(--bold-gradient);
+}
+
+.cm-em,
+.markdown-rendered em {
+    --gradient-text: var(--italic-gradient);
+}
+
+.cm-strong.cm-em,
+.markdown-rendered strong em,
+.markdown-rendered em strong {
+    --gradient-text: var(--bold-italic-gradient);
+}
+
+/* Ensure readability in light mode */
+.theme-light .cm-strong,
+.theme-light .markdown-rendered strong,
+.theme-light .cm-em,
+.theme-light .markdown-rendered em,
+.theme-light .cm-strong.cm-em,
+.theme-light .markdown-rendered strong em,
+.theme-light .markdown-rendered em strong {
+    text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure readability in dark mode */
+.theme-dark .cm-strong,
+.theme-dark .markdown-rendered strong,
+.theme-dark .cm-em,
+.theme-dark .markdown-rendered em,
+.theme-dark .cm-strong.cm-em,
+.theme-dark .markdown-rendered strong em,
+.theme-dark .markdown-rendered em strong {
+    text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.2);
+}

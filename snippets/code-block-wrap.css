@@ -1,0 +1,5 @@
+/* Don't wrap codeblocks */
+.code-nowrap .HyperMD-codeblock,
+.code-nowrap pre > code  {
+  white-space: pre;
+}

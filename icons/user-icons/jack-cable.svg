@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve">
+<rect x="360" y="48" style="fill:#3C5366;" width="24" height="64"/>
+<rect x="160" y="32" style="fill:#72C6EF;" width="208" height="96"/>
+<rect x="128" y="400" style="fill:#3C5366;" width="24" height="64"/>
+<rect x="144" y="384" style="fill:#72C6EF;" width="208" height="96"/>
+<path style="fill:#00384D;" d="M408,240H104c-39.696,0-72-32.304-72-72s32.304-72,72-72h40v48h240v-32h96l32-32l-32-32h-96V16H144
+	v48h-40C46.656,64,0,110.656,0,168s46.656,104,104,104h304c39.696,0,72,32.304,72,72s-32.304,72-72,72h-40v-48H128v32H32L0,432
+	l32,32h96v32h240v-48h40c57.344,0,104-46.656,104-104S465.344,240,408,240z M176,48h176v64H176V48z M336,464H160v-64h176V464z"/>
+<g>
+	<rect x="208" y="48" style="fill:#FFFFFF;" width="32" height="64"/>
+	<rect x="272" y="400" style="fill:#FFFFFF;" width="32" height="64"/>
+</g>
+</svg>

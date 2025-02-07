@@ -1,0 +1,15 @@
+body {
+    /* Code */
+    --code-size: var(--font-smaller);
+    --code-background: var(--background-primary-alt);
+    --code-normal: var(--text-faint);
+    --code-comment: var(--text-faint);
+    --code-function: var(--color-purple);
+    --code-important: var(--color-orange);
+    --code-keyword: var(--color-green);
+    --code-property: var(--color-cyan);
+    --code-punctuation: var(--text-muted);
+    --code-string: var(--color-blue);
+    --code-tag: var(--color-yellow);
+    --code-value: var(--color-red);
+  }
