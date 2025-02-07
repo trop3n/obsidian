@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "edd6a43c82695fe0",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b1e566ca2cd10ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3a4e9807d1a1ec3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Learn Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Learn Python"
+            }
+          },
+          {
+            "id": "5aa877c516cbcbce",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ea2998b28e5e116",
+    "type": "split",
+    "children": [
+      {
+        "id": "53ff7a37a9871d07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c72ec1fa8f8e402",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c2ae219a2fee6235",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#education/books",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f7cc970fce44d796",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "35e84c605b36cbda",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "f27d74483ad992dd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333.5
+  },
+  "right": {
+    "id": "fbc16f88d78ec7f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3568bc754442262",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aed7c2f2e3efaa91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f62c119839c38a6c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Learn Python.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Learn Python"
+            }
+          },
+          {
+            "id": "2f41de1169ddd7ec",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "476f91dce573016d",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "540659ec1309fff4",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {},
+              "icon": "BC-trail-icon",
+              "title": "Breadcrumbs Matrix"
+            }
+          },
+          {
+            "id": "704d69d51f52cb0e",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {},
+              "icon": "feather-corner-right-down",
+              "title": "Breadcrumbs Down"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 362.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-projects:Open projects": false,
+      "omnisearch:Omnisearch": false,
+      "markdown-importer:Open format converter": false,
+      "smart-composer:Open smart composer": false,
+      "juggl:Juggl global graph": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
+    }
+  },
+  "active": "704d69d51f52cb0e",
+  "lastOpenFiles": [
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Learn Python.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Scope.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Testing and Debugging.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Comparisons.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Functions.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Python Numbers.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Loops.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Lists.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Python/Dictionaries.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Linux/Permissions.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Linux/Programs.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Linux/Welcome.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Linux/Learn Linux.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Linux/Input and Output.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Linux/Filesystems.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Git/Internals.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Git/Repositories.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Git/Setup.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Learn Git/Learn Git.md",
+    "000 - Education/Computer Programming/Platforms/Boot.dev/Boot.dev.md",
+    "000 - Education/Computer Programming/Languages/SQL/Learn SQL.md",
+    "000 - Education/Computer Programming/Languages/SQL/SQL.md",
+    "000 - Education/Computer Programming/Languages/Rust/Zenva Courses/Rust Programming for Beginners.md",
+    "000 - Education/Computer Programming/Languages/Rust/Zenva Courses/Zenva Rust Course.md",
+    "000 - Education/Computer Programming/Languages/Rust/Rust for Rustaceans/Rust for Rustaceans - NSP.pdf",
+    "000 - Education/Computer Programming/Languages/Python/Learn Python/pythonlearn.pdf",
+    "000 - Education/Computer Programming/Languages/JavaScript/Eloquent JavaScript/Eloquent_JavaScript_3rdEdition.pdf",
+    "000 - Education/Computer Programming/Languages/asm",
+    "000 - Education/Computer Programming/Languages/C/Learn C",
+    "000 - Education/Computer Programming/Languages/C/Learn C From Scratch",
+    "000 - Education/Computer Programming/Languages/JavaScript",
+    "000 - Education/Computer Programming/Languages/HTML & CSS",
+    "000 - Education/Computer Programming/Languages/Golang",
+    "000 - Education/Computer Programming/Frameworks/Flutter/flutter.pdf",
+    "000 - Education/Books/Programming/Untitled.canvas",
+    "thm_tcpdump_filter.svg"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "accentColor": "#f72626",
+  "interfaceFontFamily": "karla",
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "monospaceFontFamily": "RecMonoLinear Nerd Font Mono,BlexMono Nerd Font Mono,Fantasque Sans Mono",
+  "textFontFamily": "Karla",
+  "baseFontSize": 16,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "extended-colorschemes",
+    "header gradients_citylights",
+    "bold-em-strongem gradient_citylights"
+  ],
+  "showRibbon": true
+}
