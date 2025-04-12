@@ -1,0 +1,81 @@
+/*----------------------*\
+*!   Gradient Headers   !*
+\*----------------------*/
+
+/** Colors **/
+:root .theme-light {
+    --h1-color: #FF6188;  
+    --h1-gradient: #FF6188, #FC618D, #FC9867;
+    --h2-color: #E6DB74; 
+    --h2-gradient: #E6DB74, #FC9867, #AB9DF2;
+    --h3-color: #78DCE8; 
+    --h3-gradient: #78DCE8, #AB9DF2, #8F908A;
+    --h4-color: #AB9DF2; 
+    --h4-gradient: #AB9DF2, #FF6188, #FC9867;
+    --h5-color: #63CDCF; 
+    --h5-gradient: #63CDCF, #78DCE8, #4EB4B5;
+    --h6-color: #FC9867; 
+    --h6-gradient: #FC9867, #FF6188, #F92672;
+}
+
+:root .theme-dark {
+    --h1-color: #FF6188;  
+    --h1-gradient: #FF6188, #FC618D, #FC9867;
+    --h2-color: #E6DB74; 
+    --h2-gradient: #E6DB74, #FC9867, #FF6188;
+    --h3-color: #78DCE8; 
+    --h3-gradient: #78DCE8, #63CDCF, #AB9DF2;
+    --h4-color: #AB9DF2; 
+    --h4-gradient: #AB9DF2, #F92672, #FF6188;
+    --h5-color: #63CDCF; 
+    --h5-gradient: #63CDCF, #4EB4B5, #78DCE8;
+    --h6-color: #FC9867; 
+    --h6-gradient: #FC9867, #FF6188, #F92672;
+}
+
+/** Gradient Headers **/
+
+/* Fix formatting symbol colors */
+.cm-formatting-header {
+    color: inherit;
+}
+
+/* Add text-clipped background gradients */
+.cm-header:not(.cm-formatting),
+:is(h1, h2, h3, h4, h5, h6) {
+    background: linear-gradient(to right, var(--gradient-header));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+/* Apply the gradient variables */
+.cm-header-1,
+h1 {
+    --gradient-header: var(--h1-gradient);
+}
+
+.cm-header-2,
+h2 {
+    --gradient-header: var(--h2-gradient);
+}
+
+.cm-header-3,
+h3 {
+    --gradient-header: var(--h3-gradient);
+}
+
+.cm-header-4,
+h4 {
+    --gradient-header: var(--h4-gradient);
+}
+
+.cm-header-5,
+h5 {
+    --gradient-header: var(--h5-gradient);
+}
+
+.cm-header-6,
+h6 {
+    --gradient-header: var(--h6-gradient);
+}
