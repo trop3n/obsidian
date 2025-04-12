@@ -1,0 +1,15 @@
+body {
+    /* Code */
+    --code-size: var(--font-smaller);
+    --code-background: #2D2A2E;
+    --code-normal: #FCFCFA;
+    --code-comment: #75715E;
+    --code-function: #FF6188;
+    --code-important: #FC618D;
+    --code-keyword: #AB9DF2;
+    --code-property: #78DCE8;
+    --code-punctuation: #8F908A;
+    --code-string: #E6DB74;
+    --code-tag: #F92672;
+    --code-value: #FC9867;
+}
