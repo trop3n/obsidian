@@ -1,0 +1,56 @@
+/*----------------------------------*\
+*! Monokai Pro Inline Code Blocks  !*
+\*----------------------------------*/
+
+/*==== Inline Code Blocks ====*/
+:root .theme-light {
+    --code-inline-background: #F5F6F9; /* City Lights light bg */
+    --code-inline-text: #2D3047; /* Dark slate */
+    --code-inline-gradient: #80CBC4, #C792EA, #FFCB6B; /* Cyan → Purple → Gold */
+}
+
+:root .theme-dark {
+    --code-inline-background: #1D252C; /* City Lights dark bg */
+    --code-inline-text: #B2CCD6; /* Soft blue */
+    --code-inline-gradient: #89DDFF, #C792EA, #FF5370; /* Blue → Purple → Coral */
+}
+
+/* Apply gradient text & styling */
+.cm-inline-code, .markdown-rendered code {
+    background: var(--code-inline-background);
+    border: 1px solid var(--code-inline-border);
+    border-radius: 4px;
+    padding: 0.15em 0.4em;
+    font-family: monospace;
+    font-size: 0.9em;
+    box-shadow: none;
+    
+    /* Gradient text */
+    background-image: linear-gradient(
+        to right,
+        var(--code-inline-gradient)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Optional: Add syntax-color overrides for specific contexts */
+/* Strings (yellow) */
+.cm-inline-code.cm-string, 
+.markdown-rendered code:contains("'"), 
+.markdown-rendered code:contains("\"") {
+    --code-inline-gradient: #E6DB74, #FC9867; /* Yellow → Orange */
+}
+
+/* Keywords (purple) */
+.cm-inline-code.cm-keyword,
+.markdown-rendered code:contains("function"),
+.markdown-rendered code:contains("return") {
+    --code-inline-gradient: #AB9DF2, #FF6188; /* Lavender → Pink */
+}
+
+/* Functions (pink) */
+.cm-inline-code.cm-def,
+.markdown-rendered code:contains("()") {
+    --code-inline-gradient: #FF6188, #F92672; /* Pink → Neon Pink */
+}

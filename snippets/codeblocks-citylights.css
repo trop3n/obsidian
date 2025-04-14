@@ -1,0 +1,15 @@
+body {
+    /* Code */
+    --code-size: var(--font-smaller);
+    --code-background: #1D252C;       /* City Lights dark base */
+    --code-normal: #B2CCD6;           /* Soft blue-gray text */
+    --code-comment: #687178;          /* Muted gray-blue */
+    --code-function: #82AAFF;         /* Signature soft blue */
+    --code-important: #FF5370;        /* Coral-red for emphasis */
+    --code-keyword: #C792EA;          /* Muted purple */
+    --code-property: #80CBC4;         /* Teal-cyan */
+    --code-punctuation: #8796B0;      /* Muted blue-gray */
+    --code-string: #89DDFF;           /* Light cyan-blue */
+    --code-tag: #7C4DFF;              /* Deep purple */
+    --code-value: #F78C6C;            /* Warm peach-orange */
+}
