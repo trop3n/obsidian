@@ -4,21 +4,21 @@
 
 /** Colors **/
 :root .theme-light {
-    --bold-color: #e53935;
-    --bold-gradient: var(--bold-color), #fb4934, #9d0006;
-    --italic-color: #1e88e5;
-    --italic-gradient: var(--italic-color), #458588, #076678;
-    --bold-italic-color: #fbc02d;
-    --bold-italic-gradient: var(--bold-italic-color), #8ec07c, #427b58;
+    --bold-color: #FF5370; /* Red-pink */
+    --bold-gradient: #FF5370, #F78C6C, #FFCB6B;
+    --italic-color: #80CBC4; /* Cyan */
+    --italic-gradient: #80CBC4, #8796B0, #A3D4B9;
+    --bold-italic-color: #C792EA; /* Purple */
+    --bold-italic-gradient: #C792EA, #82AAFF, #89DDFF;
 }
 
 :root .theme-dark {
-    --bold-color: #d95468;
-    --bold-gradient: var(--bold-color), #d95468, #a8273a;
-    --italic-color: #8bd49c;
-    --italic-gradient: var(--italic-color), #8bd49c, #3da856;
-    --bold-italic-color: #b62d65;
-    --bold-italic-gradient: var(--bold-italic-color), #b62d65, #730230;
+    --bold-color: #FF5370;
+    --bold-gradient: #FF5370, #F78C6C, #FFCB6B;
+    --italic-color: #80CBC4;
+    --italic-gradient: #80CBC4, #8796B0, #A3D4B9;
+    --bold-italic-color: #C792EA;
+    --bold-italic-gradient: #C792EA, #82AAFF, #89DDFF;
 }
 
 /** Gradient Text Styles **/

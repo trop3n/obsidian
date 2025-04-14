@@ -2,37 +2,38 @@
 *!   Gradient Headers   !*
 \*----------------------*/
 
-/** Colors **/
+/*==== Gradients: Headers ====*/
 :root .theme-light {
-    --h1-color: #e53935;
-    --h1-gradient: var(--h1-color), #cc241d, #9d0006;
-    --h2-color: #fb8c00;
-    --h2-gradient: var(--h2-color), #d65d0e, #af3a03;
-    --h3-color: #fbc02d;
-    --h3-gradient: var(--h3-color), #d79921, #b57614;
-    --h4-color: #7cb342;
-    --h4-gradient: var(--h4-color), #689d6a, #427b58;
-    --h5-color: #1e88e5;
-    --h5-gradient: var(--h5-color), #98971a, #79740e;
-    --h6-color: #8e24aa;
-    --h6-gradient: var(--h6-color), #b16286, #8f3f71;
+    /* Header gradients (light theme) */
+    --h1-color: #82AAFF; /* Soft blue */
+    --h1-gradient: #82AAFF, #89DDFF, #B2CCD6;
+    --h2-color: #C792EA; /* Purple */
+    --h2-gradient: #C792EA, #B388EB, #7C4DFF;
+    --h3-color: #FFCB6B; /* Gold */
+    --h3-gradient: #FFCB6B, #F78C6C, #FF5370;
+    --h4-color: #80CBC4; /* Cyan */
+    --h4-gradient: #80CBC4, #A3D4B9, #8796B0;
+    --h5-color: #F07178; /* Coral */
+    --h5-gradient: #F07178, #FF8A80, #FF869A;
+    --h6-color: #B2CCD6; /* Muted blue */
+    --h6-gradient: #B2CCD6, #8796B0, #676E95;
 }
 
 :root .theme-dark {
-    --h1-color: #d95468;
-    --h1-gradient: var(--h1-color), #d95468, #a8273a;
-    --h2-color: #ebbf83;
-    --h2-gradient: var(--h2-color), #ebbf83, #db9d48;
-    --h3-color: #8bd49c;
-    --h3-gradient: var(--h3-color), #8bd49c, #4abd64;
-    --h4-color: #539afc;
-    --h4-gradient: var(--h4-color), #539afc, #025ad4;
-    --h5-color: #b62d65;
-    --h5-gradient: var(--h5-color), #b62d65, #f20568;
-    --h6-color: #70e1e8;
-    --h6-gradient: var(--h6-color), #70e1e8, #05939c;
+    /* Header gradients (dark theme) */
+    --h1-color: #82AAFF; 
+    --h1-gradient: #82AAFF, #697098, #89DDFF;
+    --h2-color: #C792EA;
+    --h2-gradient: #C792EA, #7C4DFF, #B388EB;
+    --h3-color: #FFCB6B;
+    --h3-gradient: #FFCB6B, #F78C6C, #FF9C6E;
+    --h4-color: #80CBC4;
+    --h4-gradient: #80CBC4, #8796B0, #A3D4B9;
+    --h5-color: #F07178;
+    --h5-gradient: #F07178, #FF869A, #FF5370;
+    --h6-color: #B2CCD6;
+    --h6-gradient: #B2CCD6, #676E95, #8796B0;
 }
-
 /** Gradient Headers **/
 
 /* Fix formatting symbol colors */
