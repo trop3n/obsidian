@@ -1,0 +1,38 @@
+/*----------------------------------*\
+*! Retro Terminal Inline Code      !*
+\*----------------------------------*/
+
+/*==== Retro Variables ====*/
+:root .theme-light,
+:root .theme-dark {
+    --code-inline-retro: #80CBC4; /* Classic terminal green */
+    --code-inline-bg: #1D252C; /* Dark green background */
+    --code-inline-border: #2D3047; /* Medium green border */
+}
+
+/*==== Retro Code Blocks ====*/
+.cm-inline-code, .markdown-rendered code {
+    background: var(--code-inline-bg) !important;
+    border: 1px solid var(--code-inline-border) !important;
+    border-radius: 0 !important; /* Sharp corners for retro look */
+    padding: 0.15em 0.4em !important;
+    font-family: 'Courier New', monospace !important;
+    font-size: 0.9em !important;
+    color: var(--code-inline-retro) !important;
+    text-shadow: 0 0 3px var(--code-inline-retro) !important; /* Glow effect */
+    box-shadow: none !important;
+    
+    /* CRT scanline effect */
+    background-image: linear-gradient(
+        rgba(0, 255, 0, 0.06) 2px,
+        transparent 2px
+    );
+    background-size: 100% 4px;
+}
+
+/* Remove original gradient/text effects */
+.cm-inline-code, .markdown-rendered code {
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    -webkit-text-fill-color: initial !important;
+}

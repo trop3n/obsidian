@@ -1,0 +1,89 @@
+/*----------------------*\
+*! Retro Terminal Hdrs !*
+\*----------------------*/
+
+/*==== Retro Variables ====*/
+:root {
+    /* CRT Scanline Opacity */
+    --scan-opacity: 0.00;
+}
+
+:root .theme-light {
+    /* Header colors (light theme) */
+    --h1-color: #82AAFF; --h1-rgb: 130, 170, 255;
+    --h2-color: #C792EA; --h2-rgb: 199, 146, 234;
+    --h3-color: #FFCB6B; --h3-rgb: 255, 203, 107;
+    --h4-color: #80CBC4; --h4-rgb: 128, 203, 196;
+    --h5-color: #F07178; --h5-rgb: 240, 113, 120;
+    --h6-color: #B2CCD6; --h6-rgb: 178, 204, 214;
+}
+
+:root .theme-dark {
+    /* Header colors (dark theme) */
+    --h1-color: #82AAFF; --h1-rgb: 130, 170, 255;
+    --h2-color: #C792EA; --h2-rgb: 199, 146, 234;
+    --h3-color: #FFCB6B; --h3-rgb: 255, 203, 107;
+    --h4-color: #80CBC4; --h4-rgb: 128, 203, 196;
+    --h5-color: #F07178; --h5-rgb: 240, 113, 120;
+    --h6-color: #B2CCD6; --h6-rgb: 178, 204, 214;
+}
+
+/* CRT Header Effects */
+.cm-header:not(.cm-formatting),
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Zero Hour Regular', monospace !important;
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 2px solid var(--header-color);
+    text-shadow: 0 0 5px var(--header-color);
+    
+    /* CRT Scanline Effect */
+    background-image: linear-gradient(
+        rgba(var(--header-rgb), var(--scan-opacity)) 2px,
+        transparent 2px
+    );
+    background-size: 100% 4px;
+}
+
+/* Individual Header Styling */
+.cm-header-1, h1 {
+    --header-color: var(--h1-color);
+    --header-rgb: var(--h1-rgb);
+    font-size: 2em !important;
+}
+
+.cm-header-2, h2 {
+    --header-color: var(--h2-color);
+    --header-rgb: var(--h2-rgb);
+    font-size: 1.75em !important;
+}
+
+.cm-header-3, h3 {
+    --header-color: var(--h3-color);
+    --header-rgb: var(--h3-rgb);
+    font-size: 1.5em !important;
+}
+
+.cm-header-4, h4 {
+    --header-color: var(--h4-color);
+    --header-rgb: var(--h4-rgb);
+    font-size: 1.25em !important;
+}
+
+.cm-header-5, h5 {
+    --header-color: var(--h5-color);
+    --header-rgb: var(--h5-rgb);
+    font-size: 1.1em !important;
+}
+
+.cm-header-6, h6 {
+    --header-color: var(--h6-color);
+    --header-rgb: var(--h6-rgb);
+    font-size: 1em !important;
+}
+
+/* Formatting Symbols */
+.cm-formatting-header {
+    color: inherit !important;
+    opacity: 0.7;
+}
